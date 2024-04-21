@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Jogo de Advinhação</title>
+</head>
+
+<body>
+    <div class="box">
+        <h1>ADIVINHE O NÚMERO!</h1>
+        <h3>Pensei num número de 1 a 100. Tente adivinhar qual número eu pensei!</h3>
+        <input type="number" id="guessedNumber">
+        <button type="submit" id="try" onclick="checkNumber()">Adivinhar</button>
+        <p class="helpMessage" id="helpMessage">O número secreto é</p>
+        <h2 id="finalMessage"></h2>
+    </div>
+    <script src="script.js" defer></script>
+</body>
+
+</html>
