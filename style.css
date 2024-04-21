@@ -1,8 +1,8 @@
 body {
     margin: auto;
     text-align: center;
-    font-family:'Courier New', Courier, monospace;
-    background-color:#0563BA;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #0563BA;
 }
 
 .box {
@@ -11,6 +11,21 @@ body {
     padding: 1%;
     border-radius: 50px;
 }
+
+input,
+button {
+    font-size: 20px;
+    text-align: center;
+    width: 150px;
+    height: 40px;
+    border-radius: 10px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+button {
+    width: auto;
+}
+
 
 .helpMessage {
     display: none;
